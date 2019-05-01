@@ -1,15 +1,6 @@
-<p align="center">
-  <a href="https://burles.co">
-    <img width="533" src="cover.png">
-  </a>
-</p>
+Depois de ter tido a extensão injustamente removida do catálogo do Firefox, os devs do Burlesco decidiram tirar o suporte a sites de fora do Brasil numa vã tentativa de levá-lo de volta ao mercado. A Mozilla cagou um monte e os devs se recusam a aceitar a derrota e manter o Burlesco apenas como um userscript, que não é regulado por nenhuma entidade. Este fork devolve ao Burlesco seus antigos dias de glória, onde ele também libera o Washington Post, a Bloomberg e outros sites de fora. Commits futuros ao Burlesco oficial, caso não interfiram no funcionamento desses sites, serão incorporados a este fork.
 
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/rodorgas/burlesco)
-[![Mozilla Add-on](https://img.shields.io/amo/v/burlesco.svg)](https://addons.mozilla.org/pt-BR/firefox/addon/burlesco/)
-[![Mozilla Add-on Rating](https://img.shields.io/amo/rating/burlesco.svg)](https://addons.mozilla.org/pt-BR/firefox/addon/burlesco/)
-[![Mozilla Add-on](https://img.shields.io/amo/d/burlesco.svg)](https://addons.mozilla.org/pt-BR/firefox/addon/burlesco/)
-[![Build Status](https://travis-ci.org/burlesco/burlesco.svg?branch=master)](https://travis-ci.org/burlesco/burlesco)
-
+Abaixo, a descrição oficial do Burlesco.
 
 Extensão e userscript para navegadores que remove o paywall poroso de diversos sites de notícia. Funciona no Opera, Firefox e Chrome (e em qualquer navegador compatível com WebExtension).
 
