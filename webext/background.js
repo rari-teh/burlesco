@@ -34,6 +34,11 @@ const BLOCKLIST = {
       'http://dc.clicrbs.com.br/jornal-2015/jsp/paywall.jspx*',
     ]
   },
+  eltiempo: {
+    scriptBlocking: [
+      'https://www.eltiempo.com/js/desktopArticle.js*',
+    ]
+  },
   exame: {
     scriptBlocking: [
       '*://cdn.tinypass.com/api/tinypass.min.js',
@@ -48,6 +53,17 @@ const BLOCKLIST = {
       '*://paywall.folha.uol.com.br/*',
       '*://static.folha.uol.com.br/paywall/*',
     ]
+  },
+  financialtimes: {
+    cookieBlocking: {
+      urlFilter: '*://*.ft.com/*',
+      blockAll: true
+    },
+    headerInjection: {
+      name: 'Referer',
+      value: 'https://www.google.com.br/',
+      urlFilter: '*://www.ft.com/*'
+    }
   },
   gazetadopovo: {
     scriptBlocking: [
@@ -65,6 +81,11 @@ const BLOCKLIST = {
       '*://gauchazh.clicrbs.com.br/static/main*',
       '*://www.rbsonline.com.br/cdn/scripts/special-paywall.min.js*',
       '*://www.rbsonline.com.br/cdn/scripts/paywall.min.js*',
+    ]
+  },
+  gramophone: {
+    scriptBlocking: [
+      '*://api.tinypass.com/tpl/*',
     ]
   },
   jornaldesantacatarina: {
@@ -88,6 +109,12 @@ const BLOCKLIST = {
     scriptBlocking: [
       '*://*.jota.info/wp-content/themes/JOTA/assets/js/posts.js*'
     ]
+  },
+  medium: {	
+    cookieBlocking: {	
+      urlFilter: 'https://medium.com/*',	
+      blockAll: true	
+    }	
   },
   nexo: {
     cookieBlocking: {
@@ -114,6 +141,24 @@ const BLOCKLIST = {
       'https://static.infoglobo.com.br/paywall/js/tiny.js'
     ],
   },
+  haaretz: {	
+    headerInjection: {	
+      name: 'User-Agent',	
+      value: 'Googlebot/2.1 (+http://www.googlebot.com/bot.html)',	
+      urlFilter: '*://*.haaretz.com/*'	
+    }	
+  },	
+  haaretz_il: {	
+    headerInjection: {	
+      name: 'User-Agent',	
+      value: 'Googlebot/2.1 (+http://www.googlebot.com/bot.html)',	
+      urlFilter: '*://*.haaretz.co.il/*'	
+    },	
+    scriptBlocking: [	
+      '*://*.haaretz.co.il/*/inter.js',	
+      '*://*.themarker.com/*/inter.js'	
+    ]	
+  },
   pioneiro: {
     scriptBlocking: [
       '*://www.rbsonline.com.br/cdn/scripts/SLoader.js',
@@ -129,6 +174,33 @@ const BLOCKLIST = {
       '*://cdn.tinypass.com/api/tinypass.min.js',
     ]
   },
+  theeconomist: {	
+    scriptBlocking: [	
+      '*://cdn.tinypass.com/api/tinypass.min.js',	
+    ]	
+  },	
+  thenewyorktimes: {	
+    scriptBlocking: [	
+      '*://*.nytimes.com/js/mtr.js',	
+      '*://*.nyt.com/js/mtr.js',	
+    ]	
+  },	
+  thewashingtonpost: {	
+    scriptBlocking: [	
+      '*://*.washingtonpost.com/wp-stat/pwapi/*',	
+    ]	
+  },	
+  thewallstreetjournal: {	
+    cookieBlocking: {	
+      urlFilter: '*://*.wsj.com/*',	
+      blockAll: true	
+    },	
+    headerInjection: {	
+      name: 'Referer',	
+      value: 'https://www.facebook.com/',	
+      urlFilter: '*://*.wsj.com/*'	
+    }	
+  },
   uol: {
     scriptBlocking: [
       '*://tm.jsuol.com.br/modules/content-gate.js',
@@ -143,6 +215,12 @@ const BLOCKLIST = {
     scriptBlocking: [
       '*://cdn.tinypass.com/api/tinypass.min.js',
     ]
+  },
+  wired: {	
+    cookieBlocking: {	
+      urlFilter: '*://*.wired.com/*',	
+      blockAll: true	
+    }	
   },
 };
 
