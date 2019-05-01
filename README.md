@@ -1,4 +1,4 @@
-Depois de ter tido a extensão injustamente removida do catálogo do Firefox, os devs do Burlesco decidiram tirar o suporte a sites de fora do Brasil numa vã tentativa de levá-lo de volta ao mercado. A Mozilla cagou um monte e os devs se recusam a aceitar a derrota e manter o Burlesco apenas como um userscript, que não é regulado por nenhuma entidade. Este fork devolve ao Burlesco seus antigos dias de glória, onde ele também libera o Washington Post, a Bloomberg e outros sites de fora. Commits futuros ao Burlesco oficial, caso não interfiram no funcionamento desses sites, serão incorporados a este fork.
+Depois de ter tido a extensão injustamente removida do catálogo do Firefox, os devs do Burlesco decidiram tirar o suporte a sites de fora do Brasil numa vã tentativa de levá-lo de volta ao mercado. Este fork devolve ao Burlesco seus antigos dias de glória, onde ele também libera o Washington Post, a Bloomberg e outros sites de fora. Commits futuros ao Burlesco oficial, caso não interfiram no funcionamento desses sites, serão incorporados a este fork.
 
 Abaixo, a descrição oficial do Burlesco.
 
